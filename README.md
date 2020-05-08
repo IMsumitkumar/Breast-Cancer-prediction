@@ -2,6 +2,7 @@
 ---
 In this project we are goinig to use the RandomForestClassifier algorithm to preddict the breast cancer, that is whether it is a Malignant or benign.
 
+![](images/Types.png)
 
 ## Breast cancer Wisconsin (Diagnostic) Dataset
 

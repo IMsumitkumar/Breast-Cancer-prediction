@@ -8,8 +8,9 @@ In this project we are goinig to use the RandomForestClassifier algorithm to pre
 
 ### Data Set Characteristics :
 
-```:Number of Instances :  569
-  :Number of Attribute :  30 numeric, predictive attributes and the class`
+```
+:Number of Instances :  569
+:Number of Attribute :  30 numeric, predictive attributes and the class
   
 :Attribute Information:
 - radius (mean of distances from center to points on the perimeter)
@@ -22,6 +23,15 @@ In this project we are goinig to use the RandomForestClassifier algorithm to pre
 - concave points (number of concave portions of the contour)
 - symmetry
 - fractal dimension ("coastline approximation" - 1)
+
+The mean, standard error, and "worst" or largest (mean of the three
+    largest values) of these features were computed for each image,
+    resulting in 30 features.  For instance, field 3 is Mean Radius, field
+    13 is Radius SE, field 23 is Worst Radius.
+
+    - class:
+            - WDBC-Malignant
+            - WDBC-Benign
 ```
 This is a copy of UCI ML Breast Cancer Wisconsin (Diagnostic) datasets. https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
 
